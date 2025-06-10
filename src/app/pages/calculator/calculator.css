@@ -1,0 +1,34 @@
+div.input-fields {
+  padding: 0.2rem 0;
+}
+
+.selected-operator {
+  display: flex;
+  width: 80px;
+  justify-content: flex-end;
+  font-size: large;
+  font-weight: 800;
+  height: 20.48px;
+}
+
+.result {
+  font-size: large;
+  font-weight: 800;
+  height: 20.48px;
+}
+
+@media screen and (min-width: 276px) and (max-width: 650px) {
+  .selected-operator {
+    display: flex;
+    width: 160px;
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .selected-operator {
+    display: flex;
+    width: 160px;
+    justify-content: flex-end;
+  }
+}

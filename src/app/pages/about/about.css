@@ -1,0 +1,8 @@
+.about-page {
+  max-width: 650px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+}

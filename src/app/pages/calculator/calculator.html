@@ -1,0 +1,41 @@
+<h2>My calculator</h2>
+
+<div class="input-fields">
+  <label for="num1"><strong>Number 1 </strong> </label>
+  <input
+    type="number"
+    id="num1"
+    [value]="num1"
+    (input)="num1 = $any($event.target).valueAsNumber"
+  />
+</div>
+<div class="selected-operator"><span>{{ selectedOperator }}</span></div>
+<div class="input-fields">
+  <label for="num2"><strong>Number 2 </strong> </label>
+  <input
+    type="number"
+    id="num2"
+    [value]="num2"
+    (input)="num2 = $any($event.target).valueAsNumber"
+  />
+</div>
+<div class="button-row">
+  <button class="pill-link orange" (click)="add()">Addition</button>
+  <div>
+    <button class="pill-link green" (click)="subtract()">Subtraction</button>
+  </div>
+  <div>
+    <button class="pill-link blue" (click)="multiplication()">
+      Multiplication
+    </button>
+  </div>
+  <div>
+    <button class="pill-link purple" (click)="division()">Division</button>
+  </div>
+  <button class="pill-link red" (click)="reset()">Reset</button>
+</div>
+<div class="divider" role="separator" aria-label="Divider"></div>
+<div>
+  <p class="result" aria-live="polite"><strong>Result</strong> {{ result }}</p>
+</div>
+<div class="divider" role="separator" aria-label="Divider"></div>
