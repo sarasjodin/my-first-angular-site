@@ -11,4 +11,5 @@ import { Navbar } from './components/navbar/navbar';
 })
 export class App {
   protected title = 'my-first-angular-site';
+  currentYear: number = new Date().getFullYear();
 }

@@ -25,12 +25,25 @@
     The project is version-controlled with Git, hosted on GitHub, and published
     on a public web host.
   </p>
+  <div class="image-wrapper">
+    <div class="img-container">
+      <picture>
+        <!-- Modernast först: AVIF -->
+        <source srcset="/images/sara.avif" type="image/avif" />
 
-  <div class="img-container">
-    <img
-      src="/images/sara.jpg"
-      alt="A photo of the programmer sitting in a garden"
-    />
+        <!-- Näst bäst: WebP -->
+        <source srcset="/images/sara.webp" type="image/webp" />
+
+        <!-- Fallback: JPG -->
+        <img
+          src="/images/sara.jpg"
+          alt="A photo of the programmer sitting in a garden"
+          width="150"
+          height="150"
+          class="profile-pic"
+        />
+      </picture>
+    </div>
   </div>
   <h3>About me</h3>
   <p>

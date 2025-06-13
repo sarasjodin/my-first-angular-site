@@ -44,6 +44,7 @@ h1 {
   font-family: "Inter Tight", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol";
+  padding-bottom: 1rem;
 }
 
 p {
@@ -82,8 +83,6 @@ main {
 .content p {
   margin-top: 1.5rem;
 }
-
-
 
 .pill-group {
   display: flex;
@@ -149,10 +148,27 @@ main {
   fill: var(--gray-900);
 }
 
-img {
-  width: 200px;
-  height: auto;
-  border-radius: 20px;
+.image-wrapper {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 650px) {

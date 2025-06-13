@@ -1,10 +1,26 @@
 <main class="main">
   <h1>Welcome!</h1>
   <p>This is the start page of my first Angular application.</p>
-  <img
-    src="/images/sara.jpg"
-    alt="A photo of the programmer sitting in a garden"
-  />
+  <div class="image-wrapper">
+    <div class="img-container">
+      <picture>
+        <!-- Modernast först: AVIF -->
+        <source srcset="/images/sara.avif" type="image/avif" />
+
+        <!-- Näst bäst: WebP -->
+        <source srcset="/images/sara.webp" type="image/webp" />
+
+        <!-- Fallback: JPG -->
+        <img
+          src="/images/sara.jpg"
+          alt="A photo of the programmer sitting in a garden"
+          width="150"
+          height="150"
+          class="profile-pic"
+        />
+      </picture>
+    </div>
+  </div>
 
   <div class="divider" role="separator" aria-label="Divider"></div>
   <div class="pill-group">
