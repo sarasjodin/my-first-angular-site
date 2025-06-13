@@ -21,7 +21,10 @@ footer {
   border-top: 1px solid #ccc;
   font-size: medium;
   width: 100vw;
-  margin: 0 auto;
+}
+
+div.section {
+  width: 100vw;
 }
 
 .copyright {
