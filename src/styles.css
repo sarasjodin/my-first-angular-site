@@ -129,6 +129,12 @@ h1 {
     "Segoe UI Symbol";
 }
 
+app-converter,
+app-calculator {
+  display: block;
+  margin: 1rem;
+}
+
 h2,
 h3 {
   color: var(--gray-900);
