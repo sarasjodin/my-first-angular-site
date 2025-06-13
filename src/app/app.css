@@ -32,6 +32,9 @@ footer {
   flex-direction: row;
   display: flex;
   align-items: center;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
 div.footer > img {
