@@ -14,12 +14,15 @@ nav {
   width: 100%;
   max-width: 600px;
 }
+
 .main-nav {
   width: 200px;
 }
+
 .full-name {
   display: none;
 }
+
 .short-name {
   display: inline;
 }
@@ -100,7 +103,7 @@ nav {
 .site-name {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #111; /* nästan svart text */
+  color: #111;
 }
 
 @media screen and (min-width: 390px) and (max-width: 650px) {
@@ -129,12 +132,15 @@ nav {
     max-width: 600px;
     border-top: 1px solid #eee;
   }
+  
   .main-nav {
     width: 600px;
   }
+
   .full-name {
     display: inline;
   }
+
   .short-name {
     display: none;
   }
