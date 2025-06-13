@@ -11,12 +11,8 @@ nav {
   justify-content: center;
   padding: 1rem;
   gap: 1rem;
-  width: 100%;
+  width: 100vw;
   max-width: 600px;
-}
-
-.main-nav {
-  width: 200px;
 }
 
 .full-name {
