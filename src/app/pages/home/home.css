@@ -132,22 +132,6 @@ main {
   margin-inline-start: 0.25rem;
 }
 
-.social-links {
-  display: flex;
-  align-items: center;
-  gap: 0.73rem;
-  margin-top: 1.5rem;
-}
-
-.social-links path {
-  transition: fill 0.3s ease;
-  fill: var(--gray-400);
-}
-
-.social-links a:hover svg path {
-  fill: var(--gray-900);
-}
-
 .image-wrapper {
   padding-top: 1rem;
   display: flex;
@@ -169,6 +153,13 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+a.pill:focus {
+  transition: fill 1s ease;
+  outline: 2px solid #007acc;
+  outline-offset: 2px;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 650px) {

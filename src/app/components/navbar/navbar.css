@@ -102,6 +102,13 @@ nav {
   color: #111;
 }
 
+.logo-link:focus {
+  transition: fill 1s ease;
+  outline: 2px solid #007acc;
+  outline-offset: 2px;
+  border-radius: 8px;
+}
+
 @media screen and (min-width: 390px) and (max-width: 650px) {
   nav {
     display: flex;
