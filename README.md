@@ -1,59 +1,81 @@
-# MyFirstAngularSite
+# MyFirstAngularSite | My Angular Calculator & Converter Lab
 
+<a href="https://my-first-angular-site.netlify.app/" target="_blank" rel="noopener noreferrer"> Open Live Demo </a> <br><br>
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.1.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ee476659-27a3-4bae-b60d-4a4ac13ef190/deploy-status)](https://app.netlify.com/projects/my-first-angular-site/deploys)
 
-## Development server
+---
 
-To start a local development server, run:
+## About
 
-```bash
-ng serve
-```
+My Angular Calculator & Converter Lab" is a web application built with Angular 20, demonstrating core concepts like components, routing, and responsive design. It includes a calculator, unit converter, and project description page, all with a modular design and reusable components. 
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+<img width="auto" height="auto" alt="The app's homepage" src="https://github.com/user-attachments/assets/909ffbc7-78b1-4457-8c17-a59f3a497b29" />
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## Features
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+    ✅ Calculator page with basic arithmetic functions.
 
-```bash
-ng generate --help
-```
+    ✅ Unit converter page supporting multiple unit types.
 
-## Building
+    ✅ Responsive design using CSS Flexbox and media queries for a mobile-first approach.
 
-To build the project run:
+    ✅ Navigation and Footer components reused across pages to demonstrate modular design.
 
-```bash
-ng build
-```
+    🔍 Focus on modular design, reusability, and responsive layout.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## Tech Stack
 
-```bash
-ng test
-```
+- Angular 20 (TypeScript)
 
-## Running end-to-end tests
+- CSS (Flexbox, Media Queries for responsiveness)
 
-For end-to-end (e2e) testing, run:
+- Git (Version control)
+
+- GitHub (Hosting)
+
+- Angular Router (Routing between pages)
+
+---
+
+## Installation
 
 ```bash
-ng e2e
+npm install
+npm run dev
 ```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## More about this project
 
-## Additional Resources
+This web application, "My Angular Calculator & Converter Lab", is built with Angular 20 to demonstrate core Angular concepts like components, routing, and data binding. It features a calculator for basic arithmetic operations and a unit converter that supports multiple unit types such as length, temperature, and weight.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+The project is designed to be responsive, ensuring compatibility across various devices. The app also uses modular design with reusable navigation and footer components, making the app scalable and maintainable.
+
+---
+
+## Folder Structure
+<img width="150" height="auto" alt="Part of folder structure" src="https://github.com/user-attachments/assets/2dcfb473-758a-4b7e-8cde-0efc177da03d" />
+
+---
+
+## Security
+
+    ✅ Dependabot active: Automatic dependency updates via Dependabot.
+
+    ✅ Security policy configured: SECURITY.md for reporting vulnerabilities.
+
+    ✅ Automatic CodeQL analysis: GitHub’s CodeQL runs automatically on pushes and pull requests to scan for security vulnerabilities.
+
+---
+
+## License
+
+MIT – see LICENSE.md for details.
